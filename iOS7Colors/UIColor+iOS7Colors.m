@@ -62,6 +62,11 @@
     return [UIColor colorWithRed:0.78f green:0.78f blue:0.8f alpha:1.0f];
 }
 
++ (instancetype)iOS7defaultTintColor
+{
+	return [UIColor colorWithRed:0.0f green:0.35f blue:1.0f alpha:1.0f];
+}
+
 #pragma mark - Gradient Colors
 
 + (instancetype)iOS7redGradientStartColor

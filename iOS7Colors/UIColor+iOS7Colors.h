@@ -22,6 +22,8 @@
 + (instancetype)iOS7darkGrayColor;
 + (instancetype)iOS7lightGrayColor;
 
++ (instancetype)iOS7defaultTintColor;
+
 // Gradient Colors
 + (instancetype)iOS7redGradientStartColor;
 + (instancetype)iOS7redGradientEndColor;
