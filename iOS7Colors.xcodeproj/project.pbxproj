@@ -10,6 +10,7 @@
 		3B02A4181D15D1FF00145241 /* iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B02A4171D15D1FF00145241 /* iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B02A41F1D15D1FF00145241 /* iOS7Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B02A4151D15D1FF00145241 /* iOS7Colors.framework */; };
 		3B02A4241D15D1FF00145241 /* iOS7ColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02A4231D15D1FF00145241 /* iOS7ColorsTests.m */; };
+		3B02A4311D15D4FA00145241 /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AD216417C776AB00026A10 /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B02A4181D15D1FF00145241 /* iOS7Colors.h in Headers */,
+				3B02A4311D15D4FA00145241 /* UIColor+iOS7Colors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
