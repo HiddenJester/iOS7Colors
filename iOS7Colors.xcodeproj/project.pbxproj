@@ -296,6 +296,7 @@
 		3B02A4271D15D1FF00145241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -331,6 +332,7 @@
 		3B02A4281D15D1FF00145241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -486,6 +488,7 @@
 				3B02A4281D15D1FF00145241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B02A4291D15D1FF00145241 /* Build configuration list for PBXNativeTarget "iOS7ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +497,7 @@
 				3B02A42B1D15D1FF00145241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42AD213917C7744100026A10 /* Build configuration list for PBXProject "iOS7Colors" */ = {
 			isa = XCConfigurationList;
