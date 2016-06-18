@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42AD213D17C7744100026A10"
-               BuildableName = "iOS7Colors.app"
+               BlueprintIdentifier = "3B02A4141D15D1FF00145241"
+               BuildableName = "iOS7Colors.framework"
                BlueprintName = "iOS7Colors"
                ReferencedContainer = "container:iOS7Colors.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42AD213D17C7744100026A10"
-            BuildableName = "iOS7Colors.app"
+            BlueprintIdentifier = "3B02A4141D15D1FF00145241"
+            BuildableName = "iOS7Colors.framework"
             BlueprintName = "iOS7Colors"
             ReferencedContainer = "container:iOS7Colors.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42AD213D17C7744100026A10"
-            BuildableName = "iOS7Colors.app"
+            BlueprintIdentifier = "3B02A4141D15D1FF00145241"
+            BuildableName = "iOS7Colors.framework"
             BlueprintName = "iOS7Colors"
             ReferencedContainer = "container:iOS7Colors.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42AD213D17C7744100026A10"
-            BuildableName = "iOS7Colors.app"
+            BlueprintIdentifier = "3B02A4141D15D1FF00145241"
+            BuildableName = "iOS7Colors.framework"
             BlueprintName = "iOS7Colors"
             ReferencedContainer = "container:iOS7Colors.xcodeproj">
          </BuildableReference>
