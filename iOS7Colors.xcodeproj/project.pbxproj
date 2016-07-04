@@ -8,43 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3B02A4181D15D1FF00145241 /* iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B02A4171D15D1FF00145241 /* iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B02A41F1D15D1FF00145241 /* iOS7Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B02A4151D15D1FF00145241 /* iOS7Colors.framework */; };
-		3B02A4241D15D1FF00145241 /* iOS7ColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02A4231D15D1FF00145241 /* iOS7ColorsTests.m */; };
 		3B02A4311D15D4FA00145241 /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AD216417C776AB00026A10 /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B50D8F61D2AED110077004D /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD216517C776AB00026A10 /* UIColor+iOS7Colors.m */; };
+		3B50D8F81D2AF1CD0077004D /* module.map in Resources */ = {isa = PBXBuildFile; fileRef = 3B50D8F71D2AF1CD0077004D /* module.map */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3B02A4201D15D1FF00145241 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42AD213617C7744100026A10 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B02A4141D15D1FF00145241;
-			remoteInfo = iOS7Colors;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B02A4151D15D1FF00145241 /* iOS7Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS7Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02A4171D15D1FF00145241 /* iOS7Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS7Colors.h; sourceTree = "<group>"; };
 		3B02A4191D15D1FF00145241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B02A41E1D15D1FF00145241 /* iOS7ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS7ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B02A4231D15D1FF00145241 /* iOS7ColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7ColorsTests.m; sourceTree = "<group>"; };
-		3B02A4251D15D1FF00145241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B50D8F71D2AF1CD0077004D /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		42AD214117C7744100026A10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42AD214317C7744100026A10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42AD214517C7744100026A10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42AD214917C7744100026A10 /* iOS7Colors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7Colors-Info.plist"; sourceTree = "<group>"; };
-		42AD214B17C7744100026A10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42AD214D17C7744100026A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42AD214F17C7744100026A10 /* iOS7Colors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7Colors-Prefix.pch"; sourceTree = "<group>"; };
-		42AD215017C7744100026A10 /* CLAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAAppDelegate.h; sourceTree = "<group>"; };
-		42AD215117C7744100026A10 /* CLAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAAppDelegate.m; sourceTree = "<group>"; };
-		42AD215317C7744100026A10 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		42AD215517C7744100026A10 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		42AD215717C7744100026A10 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		42AD215917C7744100026A10 /* CLAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAViewController.h; sourceTree = "<group>"; };
-		42AD215A17C7744100026A10 /* CLAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAViewController.m; sourceTree = "<group>"; };
-		42AD215D17C7744100026A10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CLAViewController.xib; sourceTree = "<group>"; };
 		42AD216417C776AB00026A10 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
 		42AD216517C776AB00026A10 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,41 +33,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B02A41B1D15D1FF00145241 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B02A41F1D15D1FF00145241 /* iOS7Colors.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B02A4161D15D1FF00145241 /* iOS7Colors */ = {
-			isa = PBXGroup;
-			children = (
-				3B02A4171D15D1FF00145241 /* iOS7Colors.h */,
-				3B02A4191D15D1FF00145241 /* Info.plist */,
-			);
-			path = iOS7Colors;
-			sourceTree = "<group>";
-		};
-		3B02A4221D15D1FF00145241 /* iOS7ColorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				3B02A4231D15D1FF00145241 /* iOS7ColorsTests.m */,
-				3B02A4251D15D1FF00145241 /* Info.plist */,
-			);
-			path = iOS7ColorsTests;
-			sourceTree = "<group>";
-		};
 		42AD213517C7744100026A10 = {
 			isa = PBXGroup;
 			children = (
 				42AD214717C7744100026A10 /* iOS7Colors */,
-				3B02A4161D15D1FF00145241 /* iOS7Colors */,
-				3B02A4221D15D1FF00145241 /* iOS7ColorsTests */,
 				42AD214017C7744100026A10 /* Frameworks */,
 				42AD213F17C7744100026A10 /* Products */,
 			);
@@ -101,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				3B02A4151D15D1FF00145241 /* iOS7Colors.framework */,
-				3B02A41E1D15D1FF00145241 /* iOS7ColorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,13 +66,9 @@
 		42AD214717C7744100026A10 /* iOS7Colors */ = {
 			isa = PBXGroup;
 			children = (
-				42AD215017C7744100026A10 /* CLAAppDelegate.h */,
-				42AD215117C7744100026A10 /* CLAAppDelegate.m */,
-				42AD215917C7744100026A10 /* CLAViewController.h */,
-				42AD215A17C7744100026A10 /* CLAViewController.m */,
 				42AD216417C776AB00026A10 /* UIColor+iOS7Colors.h */,
 				42AD216517C776AB00026A10 /* UIColor+iOS7Colors.m */,
-				42AD215C17C7744100026A10 /* CLAViewController.xib */,
+				3B02A4171D15D1FF00145241 /* iOS7Colors.h */,
 				42AD214817C7744100026A10 /* Supporting Files */,
 			);
 			path = iOS7Colors;
@@ -134,13 +77,8 @@
 		42AD214817C7744100026A10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42AD214917C7744100026A10 /* iOS7Colors-Info.plist */,
-				42AD214A17C7744100026A10 /* InfoPlist.strings */,
-				42AD214D17C7744100026A10 /* main.m */,
-				42AD214F17C7744100026A10 /* iOS7Colors-Prefix.pch */,
-				42AD215317C7744100026A10 /* Default.png */,
-				42AD215517C7744100026A10 /* Default@2x.png */,
-				42AD215717C7744100026A10 /* Default-568h@2x.png */,
+				3B02A4191D15D1FF00145241 /* Info.plist */,
+				3B50D8F71D2AF1CD0077004D /* module.map */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,24 +116,6 @@
 			productReference = 3B02A4151D15D1FF00145241 /* iOS7Colors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3B02A41D1D15D1FF00145241 /* iOS7ColorsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B02A4291D15D1FF00145241 /* Build configuration list for PBXNativeTarget "iOS7ColorsTests" */;
-			buildPhases = (
-				3B02A41A1D15D1FF00145241 /* Sources */,
-				3B02A41B1D15D1FF00145241 /* Frameworks */,
-				3B02A41C1D15D1FF00145241 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B02A4211D15D1FF00145241 /* PBXTargetDependency */,
-			);
-			name = iOS7ColorsTests;
-			productName = iOS7ColorsTests;
-			productReference = 3B02A41E1D15D1FF00145241 /* iOS7ColorsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +127,6 @@
 				ORGANIZATIONNAME = claaslange.de;
 				TargetAttributes = {
 					3B02A4141D15D1FF00145241 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					3B02A41D1D15D1FF00145241 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -227,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				3B02A4141D15D1FF00145241 /* iOS7Colors */,
-				3B02A41D1D15D1FF00145241 /* iOS7ColorsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B02A41C1D15D1FF00145241 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3B50D8F81D2AF1CD0077004D /* module.map in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,45 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B02A41A1D15D1FF00145241 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B02A4241D15D1FF00145241 /* iOS7ColorsTests.m in Sources */,
+				3B50D8F61D2AED110077004D /* UIColor+iOS7Colors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B02A4211D15D1FF00145241 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B02A4141D15D1FF00145241 /* iOS7Colors */;
-			targetProxy = 3B02A4201D15D1FF00145241 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42AD214A17C7744100026A10 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42AD214B17C7744100026A10 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		42AD215C17C7744100026A10 /* CLAViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42AD215D17C7744100026A10 /* en */,
-			);
-			name = CLAViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3B02A4271D15D1FF00145241 /* Debug */ = {
@@ -321,6 +197,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = iOS7Colors/module.map;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +236,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = iOS7Colors/module.map;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,58 +244,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B02A42A1D15D1FF00145241 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = iOS7ColorsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7ColorsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		3B02A42B1D15D1FF00145241 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = iOS7ColorsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7ColorsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -488,15 +314,6 @@
 			buildConfigurations = (
 				3B02A4271D15D1FF00145241 /* Debug */,
 				3B02A4281D15D1FF00145241 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B02A4291D15D1FF00145241 /* Build configuration list for PBXNativeTarget "iOS7ColorsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B02A42A1D15D1FF00145241 /* Debug */,
-				3B02A42B1D15D1FF00145241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

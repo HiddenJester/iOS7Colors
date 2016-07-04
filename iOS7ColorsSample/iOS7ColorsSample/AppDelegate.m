@@ -1,22 +1,27 @@
 //
-//  CLAAppDelegate.m
-//  iOS7Colors
+//  AppDelegate.m
+//  iOS7ColorsSample
 //
-//  Created by claaslange on 23.08.13.
-//  Copyright (c) 2013 claaslange.de. All rights reserved.
+//  Created by Timothy Sanders on 7/4/16.
+//  Copyright © 2016 Timothy Sanders. All rights reserved.
 //
 
-#import "CLAAppDelegate.h"
+#import "AppDelegate.h"
 
-#import "CLAViewController.h"
+#import "ViewController.h"
 
-@implementation CLAAppDelegate
+@interface AppDelegate ()
+
+@end
+
+@implementation AppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[CLAViewController alloc] initWithNibName:@"CLAViewController" bundle:nil];
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -30,7 +35,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
