@@ -23,13 +23,6 @@
 			remoteGlobalIDString = 3B02A4151D15D1FF00145241;
 			remoteInfo = iOS7Colors;
 		};
-		3B50D8EF1D2AEB690077004D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B50D8E81D2AEB690077004D /* iOS7Colors.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B02A41E1D15D1FF00145241;
-			remoteInfo = iOS7ColorsTests;
-		};
 		3B50D8F21D2AEBC50077004D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3B50D8E81D2AEB690077004D /* iOS7Colors.xcodeproj */;
@@ -108,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				3B50D8EE1D2AEB690077004D /* iOS7Colors.framework */,
-				3B50D8F01D2AEB690077004D /* iOS7ColorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +132,7 @@
 		3B50D8C61D2AEA1D0077004D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Timothy Sanders";
 				TargetAttributes = {
 					3B50D8CD1D2AEA1D0077004D = {
@@ -178,13 +170,6 @@
 			fileType = wrapper.framework;
 			path = iOS7Colors.framework;
 			remoteRef = 3B50D8ED1D2AEB690077004D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3B50D8F01D2AEB690077004D /* iOS7ColorsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS7ColorsTests.xctest;
-			remoteRef = 3B50D8EF1D2AEB690077004D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -237,8 +222,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -282,8 +269,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -348,6 +337,7 @@
 				3B50D8E71D2AEA1D0077004D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
