@@ -10,14 +10,12 @@
 		3B02A4181D15D1FF00145241 /* iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B02A4171D15D1FF00145241 /* iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B02A4311D15D4FA00145241 /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AD216417C776AB00026A10 /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B50D8F61D2AED110077004D /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD216517C776AB00026A10 /* UIColor+iOS7Colors.m */; };
-		3B50D8F81D2AF1CD0077004D /* module.map in Resources */ = {isa = PBXBuildFile; fileRef = 3B50D8F71D2AF1CD0077004D /* module.map */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B02A4151D15D1FF00145241 /* iOS7Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS7Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02A4171D15D1FF00145241 /* iOS7Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS7Colors.h; sourceTree = "<group>"; };
 		3B02A4191D15D1FF00145241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B50D8F71D2AF1CD0077004D /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		42AD214117C7744100026A10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42AD214317C7744100026A10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42AD214517C7744100026A10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				3B02A4191D15D1FF00145241 /* Info.plist */,
-				3B50D8F71D2AF1CD0077004D /* module.map */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B50D8F81D2AF1CD0077004D /* module.map in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +194,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = iOS7Colors/module.map;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -238,7 +233,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = iOS7Colors/module.map;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.iOS7Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
