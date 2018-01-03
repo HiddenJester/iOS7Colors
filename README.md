@@ -20,6 +20,7 @@ The easiest way to integrate iOS7Colors is using CocoaPods. Since this is a fork
 `pod 'iOS7Colors', :git => 'https://github.com/HiddenJester/iOS7Colors.git'`
 
 Where you need the colors you can simply add:
+
 `@import iOS7Colors;`
 
  The original fork is available by adding this to your Podfile:
