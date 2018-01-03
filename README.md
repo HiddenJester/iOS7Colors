@@ -11,6 +11,8 @@ iOS7Colors is a simple category on UIColor which provides you some of the standa
 - Added a method for `iOS7defaultTintColor`.
 - Added Carthage support.
 - Note that this fork is not published as a Cocoapod. In order to use this fork as a Cocoapod you would want to add something like `pod 'iOS7Colors', :git => 'https://github.com/HiddenJester/iOS7Colors.git'`
+- Updated to the recommended project settings for Xcode 9.2
+- Updated the sample app to use the forked Cocoapod.
 
 ## Usage
 
