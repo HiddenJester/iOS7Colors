@@ -1,6 +1,16 @@
 # iOS7Colors
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/HJSDebug.svg)](https://cocoapods.org)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 iOS7Colors is a simple category on UIColor which provides you some of the standard colors used throughout iOS 7.
+
+## Changes in this fork over the [original](https://github.com/claaslange/iOS7Colors)
+- Removed semicolons that block using `-Wno-semicolon-before-method-body`.
+- Replaced the `#import <UIKit/UIKit.h>` with `@import UIKit`
+- Added a method for `iOS7defaultTintColor`.
+- Added Carthage support.
+- Note that this fork is not published as a Cocoapod. In order to use this fork as a Cocoapod you would want to add something like `pod 'iOS7Colors', :git => 'https://github.com/HiddenJester/iOS7Colors.git'`
 
 ## Usage
 
@@ -8,7 +18,7 @@ The easiest way to integrate iOS7Colors is using CocoaPods. Just add this to you
 
     pod 'iOS7Colors', '~> 2.0.0'
 
-Usage is really simple. Just include `UIColor+iOS7Colors.h` & `UIColor+iOS7Colors.m` in your project if you're not using cocoapods and import the header file you need the colors.
+Usage is really simple. Just include `UIColor+iOS7Colors.h` & `UIColor+iOS7Colors.m` in your project if you're not using cocoapods and import the header file where you need the colors.
 
     #import "UIColor+iOS7Colors.h"
 
