@@ -10,19 +10,28 @@ iOS7Colors is a simple category on UIColor which provides you some of the standa
 - Replaced the `#import <UIKit/UIKit.h>` with `@import UIKit`
 - Added a method for `iOS7defaultTintColor`.
 - Added Carthage support.
-- Note that this fork is not published as a Cocoapod. In order to use this fork as a Cocoapod you would want to add something like `pod 'iOS7Colors', :git => 'https://github.com/HiddenJester/iOS7Colors.git'`
 - Updated to the recommended project settings for Xcode 9.2
 - Updated the sample app to use the forked Cocoapod.
 
 ## Usage
 
-The easiest way to integrate iOS7Colors is using CocoaPods. Just add this to your Podfile:
+The easiest way to integrate iOS7Colors is using CocoaPods. Since this is a fork, the Cocoapod is not published in the main Cocoapods repository. You can use this fork by adding this to your Podfile:
 
-    pod 'iOS7Colors', '~> 2.0.0'
+`pod 'iOS7Colors', :git => 'https://github.com/HiddenJester/iOS7Colors.git'`
 
-Usage is really simple. Just include `UIColor+iOS7Colors.h` & `UIColor+iOS7Colors.m` in your project if you're not using cocoapods and import the header file where you need the colors.
+Where you need the colors you can simply add:
+`@import iOS7Colors;`
 
-    #import "UIColor+iOS7Colors.h"
+ The original fork is available by adding this to your Podfile:
+ 
+`pod 'iOS7Colors', '~> 2.0.0'`
+
+If you aren't using CocoaPods or Carthage then include `UIColor+iOS7Colors.h` & `UIColor+iOS7Colors.m` in your project.
+
+If you aren't using the framework version from the fork you can import the category where you need the colors:
+`#import "UIColor+iOS7Colors.h"`
+
+However you incorporate the category once that is done you can access the colors like this:
 
     UILabel *label = [UILabel alloc] initWithFrame:CGRectZero];
 
