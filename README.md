@@ -1,7 +1,7 @@
 # iOS7Colors
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods)](https://cocoapods.org)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Compatible](https://img.shields.io/badge/Cocoapod-Compatible-brightgreen.svg?style=flat)](https://cocoapods.org)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 iOS7Colors is a simple category on UIColor which provides you some of the standard colors used throughout iOS 7.
 
