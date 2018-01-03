@@ -30,6 +30,7 @@ Where you need the colors you can simply add:
 If you aren't using CocoaPods or Carthage then include `UIColor+iOS7Colors.h` & `UIColor+iOS7Colors.m` in your project.
 
 If you aren't using the framework version from the fork you can import the category where you need the colors:
+
 `#import "UIColor+iOS7Colors.h"`
 
 However you incorporate the category once that is done you can access the colors like this:
