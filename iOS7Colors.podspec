@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Claas Lange" => "claas@claaslange.de" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/HiddenJester/iOS7Colors.git", :tag => "3.1.3" }
+  s.source       = { :git => "https://github.com/HiddenJester/iOS7Colors.git", :tag => "v#{s.version}" }
   s.source_files  = 'iOS7Colors/UIColor+iOS7Colors.*'
 
 end
